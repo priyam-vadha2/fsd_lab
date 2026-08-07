@@ -1,0 +1,14 @@
+<!-- index.ejs -->
+<%- include("partials/header") %>
+
+<h2><%= title %></h2>
+<p>Welcome students!</p>
+
+<a href="/students" class="btn">View Students List</a>
+
+<!-- Example to demonstrate escaped vs unescaped HTML -->
+<h3>EJS Output Example:</h3>
+<p><%= "<b>This will appear as text (escaped)</b>" %></p>
+<p><%- "<b>This will appear as bold text (unescaped)</b>" %></p>
+
+<%- include("partials/footer") %>

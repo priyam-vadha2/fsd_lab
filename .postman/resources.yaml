@@ -1,0 +1,7 @@
+# Use this workspace to collaborate
+workspace:
+  id: 9e53d18c-4c90-4916-82f0-a3dc4bb1f4e0
+
+localResources:
+  collections:
+    - ../NodeJS-DemoExamples/7.0-NodeJSRoutes/Student_API.postman_collection.json

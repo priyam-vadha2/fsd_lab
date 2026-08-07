@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #fafafa;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  color: #0077cc;
+}
+
+ul {
+  list-style-type: square;
+}
+
+footer {
+  text-align: center;
+  color: gray;
+  font-size: 14px;
+}

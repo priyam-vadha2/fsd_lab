@@ -1,0 +1,7 @@
+{
+  "students": [
+    { "name": "MahaLakshmi", "marks": 85 },
+    { "name": "JagaLakshmi", "marks": 92 },
+    { "name": "VijayaLakshmi", "marks": 78 }
+  ]
+}

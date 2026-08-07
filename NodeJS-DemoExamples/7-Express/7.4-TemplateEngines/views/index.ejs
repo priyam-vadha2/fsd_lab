@@ -1,0 +1,21 @@
+<!-- index.ejs -->
+<%- include("partials/header") %>
+
+<h2><%= title %></h2>
+<p>Welcome students! Here’s our list of brilliant minds:</p>
+
+<ul>
+  <% students.forEach(student => { %>
+  <li>
+    <strong><%= student.name %></strong> (Grade: <%= student.grade %>) — Loves
+    <%= student.favoriteSubject %>
+  </li>
+  <% }) %>
+</ul>
+
+<!-- Example to demonstrate escaped vs unescaped HTML -->
+<h3>EJS Output Example:</h3>
+<p><%= "<b>This will appear as text (escaped)</b>" %></p>
+<p><%- "<b>This will appear as bold text (unescaped)</b>" %></p>
+
+<%- include("partials/footer") %>
